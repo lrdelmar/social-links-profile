@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url(../assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-card {
+  width: 560px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 100%;
+  padding: 50px;
+  display: block;
+  margin: auto;
+}
+
+.profile-name {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.profile-location {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.profile-description {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.button-link {
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  width: 360px;
+  height: 30px;
+  border-radius: 4px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
