@@ -133,16 +133,11 @@ body {
   width: 18rem;
 }
 
-.button-link:hover {
+.button-link:hover,
+.button-link:focus {
   background-color: #a980d6;
   color: hsl(0, 0%, 8%);
-  transition: all 500ms;
 }
-
-/* .button-link:focus,
-.button-link:active {
-  background-color: hsl(0, 0%, 20%);
-} */
 
 .attribution {
   font-size: 11px;
